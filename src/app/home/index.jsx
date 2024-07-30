@@ -5,6 +5,7 @@ import {
   barstats,
   cisco,
   dgplogo,
+  HBar2024,
   jpmc,
   microsoft,
   oracle,
@@ -26,13 +27,13 @@ import InfiniteLooper from "@/components/InfiniteLooper";
 
 function HomePage() {
   return (
-    <div className=" bg-white h-screen text-black w-screen overflow-y-scroll">
+    <div className=" bg-white text-black w-screen">
       <div className=" w-screen">
         <Image src={Background} />
       </div>
       <Introduction />
       <div className=" flex w-full justify-center my-3">
-        <Image src={barstats} />
+        <Image src={HBar2024} className=" w-1/2" />
       </div>
       <Statistics />
       <div className=" w-screen mb-16 mt-5 relative">

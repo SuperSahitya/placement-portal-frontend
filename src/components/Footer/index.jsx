@@ -34,9 +34,8 @@ const Footer = () => {
                 Recruiters Form
               </Link>
               <Link
-                href="https://forms.gle/Sn3H61inDZ9seePu7"
+                href="/placement-statistics"
                 className=" hover:underline"
-                target="blank"
               >
                 Placement Statistics
               </Link>
@@ -48,9 +47,8 @@ const Footer = () => {
                 NIT Durgapur
               </Link>
               <Link
-                href="https://forms.gle/Sn3H61inDZ9seePu7"
+                href="/contributors"
                 className=" hover:underline"
-                target="blank"
               >
                 Contributors
               </Link>
@@ -103,8 +101,8 @@ const Footer = () => {
           rights reserved.
         </p>
       </div>
-      <div className="mt-4 text-center  bg-white/80 py-3">
-        <p>Built and Maintained by GNU Linux Users&apos; Group , NIT Durgapur</p>
+      <div className="mt-4 text-center flex justify-center gap-2 items-center w-full px-2 text-md  bg-white/80 py-3">
+        Built and Maintained by <Image src={"https://nitdgplug.org/static/images/glug-logo.png"} height={30} width={30} /> GNU Linux Users&apos; Group , NIT Durgapur
       </div>
     </footer>
   );

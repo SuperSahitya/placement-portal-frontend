@@ -5,7 +5,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className=" bg-secondary w-screen py-5 px-4 flex justify-between items-center">
+    <div className=" bg-secondary w-screen py-5 px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-3">
       <div className=" flex items-center">
         <Image src={dgplogo} height={65} width={65} />
         <div className=" text-2xl ps-3 font-bold">

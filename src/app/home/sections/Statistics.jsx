@@ -1,4 +1,4 @@
-import { branchstats, pistats } from "@/assets";
+import { branchstats, Pie2024, pistats, VBar2024 } from "@/assets";
 import Image from "next/image";
 import React from "react";
 
@@ -22,7 +22,7 @@ function Statistics() {
       </ul>
 
       <div className=" flex w-full justify-center my-3">
-        <Image src={pistats} />
+        <Image src={Pie2024} className=" w-1/2" />
       </div>
 
       <h3 className="text-xl font-semibold mb-2">Summer Internships:</h3>
@@ -33,7 +33,7 @@ function Statistics() {
         to assess students and offer Pre-Placement Offers (PPOs).
       </p>
       <div className=" flex w-full justify-center my-3">
-        <Image src={branchstats} />
+        <Image src={VBar2024} className=" w-1/2" />
       </div>
       <h3 className="text-xl font-semibold mb-2">
         Industry Institute Interactions
