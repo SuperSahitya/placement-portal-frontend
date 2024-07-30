@@ -104,7 +104,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="mt-4 text-center  bg-white/80 py-3">
-        <p>Built and Maintained by GNU LinuxUsers' Group , NIT Durgapur</p>
+        <p>Built and Maintained by GNU Linux Users&apos; Group , NIT Durgapur</p>
       </div>
     </footer>
   );

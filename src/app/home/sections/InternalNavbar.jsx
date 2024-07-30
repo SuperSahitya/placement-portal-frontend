@@ -12,6 +12,7 @@ function InternalNavbar() {
       {navbar_links.map((links, i) => (
         <Link
           href={links.link}
+          key={i}
           target={links.name === "Recruiters Section" && "blank"}
           className={pathname === links.link && " underline"}
         >

@@ -20,7 +20,7 @@ const Introduction = () => {
         Placements at NITD begin in the final year (Seventh Semester, July). The
         process starts with sending invitations to previous recruiters in May.
         Companies participate in pre-placement talks, conduct tests and
-        interviews, and select the best candidates. The institute's placement
+        interviews, and select the best candidates. The institute&apos;s placement
         policy is available on the portal. Industries participating in
         placements include:
       </p>
@@ -33,7 +33,7 @@ const Introduction = () => {
 
       <p>
         Sector-wise hiring and the average Cost To Company (CTC) offered for the
-        2023 batch are provided, showcasing the institute's robust placement
+        2023 batch are provided, showcasing the institute&apos;s robust placement
         record.
       </p>
     </div>
