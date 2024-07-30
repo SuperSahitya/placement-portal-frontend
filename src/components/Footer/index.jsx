@@ -1,68 +1,110 @@
 // components/Footer.js
-import { dgplogo } from "@/assets";
+import { dgplogo, person_placeholder } from "@/assets";
+import { contact_list } from "@/utils/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 p-4">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between">
-        <div className="mb-4 md:mb-0">
+    <footer className="bg-gray-200 ">
+      <div className=" w-full mx-auto flex flex-col md:flex-row items-center justify-around py-3">
+        <div className="mb-4 md:mb-0 px-4">
           <div className="text-center md:text-left">
             <Image src={dgplogo} />{" "}
             <h2 className="font-bold text-lg mt-2">
               National Institute of Technology, Durgapur
             </h2>
-            <p className="mt-2">
-              Subscribe to our updates
-              <div className="mt-1">
-                <input
-                  type="email"
-                  placeholder="Enter your Email Address"
-                  className="p-2 rounded-l border border-gray-400"
-                />
-                <button className="p-2 bg-blue-500 text-white rounded-r">
-                  Submit
-                </button>
-              </div>
+            <p>
+              Training and Placement Cell
+              <br />
+              National Institute of Technology, Durgapur
+              <br />
+              Mahatma Gandhi Rd, A-Zone, Durgapur,
+              <br />
+              West Bengal 713209
+              <br />
             </p>
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-1 mt-4 text-blue-500">
+              <Link
+                href="https://forms.gle/Sn3H61inDZ9seePu7"
+                className=" hover:underline"
+                target="blank"
+              >
+                Recruiters Form
+              </Link>
+              <Link
+                href="https://forms.gle/Sn3H61inDZ9seePu7"
+                className=" hover:underline"
+                target="blank"
+              >
+                Placement Statistics
+              </Link>
+              <Link
+                href="https://nitdgp.ac.in/"
+                className=" hover:underline"
+                target="blank"
+              >
+                NIT Durgapur
+              </Link>
+              <Link
+                href="https://forms.gle/Sn3H61inDZ9seePu7"
+                className=" hover:underline"
+                target="blank"
+              >
+                Contributors
+              </Link>
+            </div>
           </div>
         </div>
         <div className="mb-4 md:mb-0">
-          <h3 className="font-bold text-center md:text-left">Quick Links</h3>
-          <div className="grid grid-cols-3 gap-4">
-            {Array.from({ length: 18 }).map((_, i) => (
-              <a key={i} href="#" className="block text-center md:text-left">
-                Quick Link
-              </a>
+          <h3 className="font-bold text-center text-2xl md:text-left">
+            Contacts
+          </h3>
+          <div className=" grid grid-cols-1 md:grid-cols-3 gap-2">
+            {contact_list.map((conatct, i) => (
+              <div key={i} className=" flex gap-2 px-2 py-3">
+                <div className=" rounded-full w-[15%]">
+                  {" "}
+                  <Image
+                    src={person_placeholder}
+                    alt="person_placeholder"
+                    height={50}
+                    width={50}
+                    className=" rounded-full "
+                  />
+                </div>
+                <div className=" w-4/5">
+                  <div className=" font-bold">{conatct.name}</div>
+                  <div className=" text-md text-nowrap">
+                    {conatct.title} {conatct.mobile && "-"} {conatct.mobile}
+                  </div>
+                  <div className=" flex flex-col">
+                    {conatct.email.map((em, i) => (
+                      <Link
+                        key={`${em}-${i}`}
+                        className=" text-md hover:underline"
+                        href={`mailto:${em}`}
+                      >
+                        {em}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
-        <div className="text-center md:text-left">
-          <h3 className="font-bold">Contact Us</h3>
-          <p>
-            Training and Placement Cell
-            <br />
-            National Institute of Technology, Durgapur
-            <br />
-            Mahatma Gandhi Rd, A-Zone, Durgapur,
-            <br />
-            West Bengal 713209
-            <br />
-            Email:{" "}
-            <a href="mailto:cdc@nitdgp.ac.in" className="text-blue-500">
-              cdc@nitdgp.ac.in
-            </a>
-            <br />
-            Contact: +91 7989833795
-          </p>
-        </div>
+       
       </div>
       <div className="mt-4 text-center border-t border-gray-400 pt-4">
         <p>
           Copyright © 2024. National Institute of Technology, Durgapur. All
           rights reserved.
         </p>
+      </div>
+      <div className="mt-4 text-center  bg-white/80 py-3">
+        <p>Built and Maintained by GNU LinuxUsers' Group , NIT Durgapur</p>
       </div>
     </footer>
   );

@@ -1,15 +1,23 @@
+
+"use client"
+import { navbar_links } from "@/utils/constants";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 function InternalNavbar() {
+  const pathname  = usePathname()
   return (
     <div className=" bg-primary text-white flex justify-center space-x-8 py-4">
-      <Link href="/">Home</Link>
-      <Link href="/about">About Us</Link>
-      <Link href="/academics">Academics</Link>
-      <Link href="/students">For Students</Link>
-      <Link href="/recruiters">For Recruiters</Link>
-      <Link href="/contact">Contact Us</Link>
+      {navbar_links.map((links, i) => (
+        <Link
+          href={links.link}
+          target={links.name === "Recruiters Section" && "blank"}
+          className={pathname === links.link && " underline"}
+        >
+          {links.name}
+        </Link>
+      ))}
     </div>
   );
 }
