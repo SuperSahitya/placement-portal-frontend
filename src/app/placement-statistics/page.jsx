@@ -17,7 +17,7 @@ import {
 function PlacementStatistics() {
   return (
     <div>
-      <div className=" text-3xl font-bold my-4 w-full md:w-4/5 mx-auto">
+      <div className=" text-3xl font-bold my-4 w-full md:w-4/5 mx-auto px-2">
        Placement at a Glance
       </div>
       <div className=" my-4 w-full md:w-4/5 flex justify-center  flex-col items-center mx-auto gap-3">

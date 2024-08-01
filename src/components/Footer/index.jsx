@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
        
       </div>
-      <div className="mt-4 text-center border-t border-gray-400 pt-4">
+      <div className="mt-4 text-center border-t border-gray-400 pt-4 px-2">
         <p>
           Copyright © 2024. National Institute of Technology, Durgapur. All
           rights reserved.
