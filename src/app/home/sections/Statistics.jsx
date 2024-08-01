@@ -4,7 +4,7 @@ import React from "react";
 
 function Statistics() {
   return (
-    <div className=" w-full px-3 md:px-0 py-10 md:w-4/5 mx-auto  my-4">
+    <div className=" w-full px-3 md:px-0 py-10 md:w-4/5 mx-auto  my-4 text-xl">
       <h3 className="text-xl font-semibold mb-2">Internships at NITD</h3>
 
       <h3 className="text-lg font-semibold mb-2">

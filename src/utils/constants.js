@@ -95,6 +95,10 @@ export const navbar_links = [
     name: "Placement Statistics",
     link: "/placement-statistics",
   },
+  // {
+  //   name: "Internships",
+  //   link: "/internships",
+  // },
   {
     name: "Students Section",
     link: "/students-section",
@@ -103,6 +107,7 @@ export const navbar_links = [
     name: "Recruiters Section",
     link: "https://forms.gle/Sn3H61inDZ9seePu7",
   },
+ 
   {
     name: "Contact Us",
     link: "/contact-us",

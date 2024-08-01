@@ -4,8 +4,7 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <div className=" w-full px-3 md:px-0 py-10 md:w-4/5 mx-auto">
-      <h2 className="text-2xl font-bold text-primary mb-4">Introduction</h2>
+    <div className=" w-full px-3 md:px-0 py-10 md:w-4/5 mx-auto md:text-xl">
       <p className="mb-4">
         Since its inception in 1960 as Regional Engineering College, Durgapur,
         NITD has consistently strived for academic excellence and innovation.

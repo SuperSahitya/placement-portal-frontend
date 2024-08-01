@@ -10,7 +10,7 @@ function InternalNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-blueLight">
       <div className="md:hidden py-2 px-4">
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
@@ -32,7 +32,7 @@ function InternalNavbar() {
             target={links.name === "Recruiters Section" ? "_blank" : "_self"}
             className={`${
               pathname === links.link ? "underline" : ""
-            } block py-2 px-4 md:py-0`}
+            } block py-1 px-2 md:py-0 font-semi-bold md:text-lg`}
             onClick={() => setIsOpen(false)} // Close menu on link click
           >
             {links.name}

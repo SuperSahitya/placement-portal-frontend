@@ -1,108 +1,130 @@
-// components/Footer.js
+"use client";
 import { dgplogo, person_placeholder } from "@/assets";
-import { contact_list } from "@/utils/constants";
+import { contact_list, navbar_links } from "@/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
+import { FaHome, FaLinkedin } from "react-icons/fa";
+import { IoCallSharp, IoMailSharp } from "react-icons/io5";
 
 const Footer = () => {
+  const pathname = usePathname();
   return (
     <footer className="bg-gray-200 ">
-      <div className=" w-full mx-auto flex flex-col md:flex-row items-center justify-around py-3">
-        <div className="mb-4 md:mb-0 px-4">
-          <div className="text-center md:text-left">
-            <Image src={dgplogo} className=" mx-auto" />{" "}
+      <div className=" w-full mx-auto flex flex-col md:flex-row md:items-center ps-4 md:px-0 justify-around py-6">
+        <div className="mb-4 md:mb-0">
+          <div className=" text-left">
+            <Image src={dgplogo} className=" h-20 w-20" />
             <h2 className="font-bold text-lg mt-2">
-              National Institute of Technology, Durgapur
-            </h2>
-            <p>
               Training and Placement Cell
-              <br />
-              National Institute of Technology, Durgapur
-              <br />
-              Mahatma Gandhi Rd, A-Zone, Durgapur,
+            </h2>
+            <p className=" my-2 flex gap-3 md:gap-2 items-center">
+              <FaHome size={24} />
+              NIT Durgapur , Mahatma Gandhi Rd, A-Zone, Durgapur,
               <br />
               West Bengal 713209
-              <br />
             </p>
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-1 mt-4 text-blue-500">
+            <p className=" my-2 flex gap-3 md:gap-2 items-center">
+              <IoMailSharp size={24} />{" "}
+              <p className=" flex flex-col md:flex-row">
+                <Link href="mailto:placementcell@nitdgp.ac.in">
+                  placementcell@nitdgp.ac.in /
+                </Link>
+
+                <Link href="mailto:cdc@nitdgp.ac.in">cdc@nitdgp.ac.in</Link>
+              </p>
+            </p>
+            <p className=" my-2 flex gap-3 md:gap-2 items-center">
+              <IoCallSharp size={24} />{" "}
+              <Link href="tel:+91 9800781162">+91 9800781162</Link> /
+              <Link href="tel:+91 7989837958">+91 7989837958</Link>
+            </p>
+            <p className=" my-2 flex gap-3 md:gap-2 items-center">
+              <FaLinkedin size={24} />{" "}
               <Link
-                href="https://forms.gle/Sn3H61inDZ9seePu7"
-                className=" hover:underline"
-                target="blank"
+                href="https://www.linkedin.com/company/cdc-nitdgp-official/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Recruiters Form
+                LinkedIn Profile
               </Link>
-              <Link
-                href="/placement-statistics"
-                className=" hover:underline"
-              >
-                Placement Statistics
-              </Link>
-              <Link
-                href="https://nitdgp.ac.in/"
-                className=" hover:underline"
-                target="blank"
-              >
-                NIT Durgapur
-              </Link>
-              <Link
-                href="/contributors"
-                className=" hover:underline"
-              >
-                Contributors
-              </Link>
-            </div>
+            </p>
           </div>
         </div>
         <div className="mb-4 md:mb-0">
-          <h3 className="font-bold text-center text-2xl md:text-left">
-            Contacts
-          </h3>
-          <div className=" grid grid-cols-1 md:grid-cols-3 gap-2">
-            {contact_list.map((conatct, i) => (
-              <div key={i} className=" flex gap-2 px-2 py-3">
-                <div className=" rounded-full w-[15%]">
-                  {" "}
-                  <Image
-                    src={person_placeholder}
-                    alt="person_placeholder"
-                    height={50}
-                    width={50}
-                    className=" rounded-full "
-                  />
-                </div>
-                <div className=" w-4/5">
-                  <div className=" font-bold">{conatct.name}</div>
-                  <div className=" text-md text-nowrap">
-                    {conatct.title} {conatct.mobile && "-"} {conatct.mobile}
-                  </div>
-                  <div className=" flex flex-col">
-                    {conatct.email.map((em, i) => (
-                      <Link
-                        key={`${em}-${i}`}
-                        className=" text-md hover:underline"
-                        href={`mailto:${em}`}
-                      >
-                        {em}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
+          <h3 className="font-bold  text-2xl md:text-left">Important Links</h3>
+          <div className=" grid grid-cols-1 gap-1 mt-4 ">
+            <Link
+              href="https://nitdgp.ac.in/uploads/userfiles/images/Placement%20Policy.pdf"
+              className=" hover:underline"
+              target="blank"
+            >
+              Placement Policy
+            </Link>
+            <Link
+              href="https://nitdgp.ac.in/uploads/userfiles/images/CV%20Format%20for%20UG1.pdf"
+              className=" hover:underline"
+            >
+              CV Format for UG
+            </Link>
+            <Link
+              href="https://nitdgp.ac.in/uploads/userfiles/images/CV%20Format%20for%20PG1.pdf"
+              className=" hover:underline"
+            >
+              CV Format for PG
+            </Link>
+            <Link
+              href="https://nitdgp.ac.in/"
+              className=" hover:underline"
+              target="blank"
+            >
+              NIT Durgapur
+            </Link>
+            <Link href="/contributors" className=" hover:underline">
+              Contributors
+            </Link>
           </div>
         </div>
-       
+        <div className="mb-4 md:mb-0">
+          <h3 className="font-bold  text-2xl md:text-left">Nav Links</h3>
+          <div className=" grid grid-cols-1 gap-1 mt-4 ">
+            {navbar_links
+              .filter((obj) => obj.link !== pathname)
+              .map((links, i) => (
+                <Link
+                  href={links.link}
+                  key={i}
+                  target={
+                    links.name === "Recruiters Section" ? "_blank" : "_self"
+                  }
+                  className={`${
+                    pathname === links.link ? "underline" : ""
+                  } block font-semi-bold text-lg hover:underline`}
+                  onClick={() => setIsOpen(false)} // Close menu on link click
+                >
+                  {links.name}
+                </Link>
+              ))}
+          </div>
+        </div>
       </div>
-      <div className="mt-4 text-center border-t border-gray-400 pt-4 px-2">
+      <div className="mt-4  text-center border-t border-gray-400 pt-4 px-2">
         <p>
-          Copyright © 2024. National Institute of Technology, Durgapur. All
+          Copyright © {new Date().getFullYear()}. National Institute of Technology, Durgapur. All
           rights reserved.
         </p>
       </div>
-      <div className="mt-4 text-center md:flex md:justify-center gap-2 md:items-center w-full px-2 text-md  bg-white/80 py-3">
-        Built and Maintained by <Image src={"https://nitdgplug.org/static/images/glug-logo.png"} className=" hidden md:block" height={30} width={30} />  <span className=" font-semibold">GNU Linux Users&apos; Group</span> , NIT Durgapur
+      <div className="mt-4 text-center  md:flex md:justify-center gap-2 md:items-center w-full px-2 text-md  bg-white/80 py-3">
+        Developed and Maintained by
+        <Image
+          src={"https://nitdgplug.org/static/images/glug-logo.png"}
+          className=" hidden md:block"
+          height={30}
+          width={30}
+        />
+        <span className=" font-semibold ps-1">GNU Linux Users&apos; Group</span> ,
+        NIT Durgapur
       </div>
     </footer>
   );

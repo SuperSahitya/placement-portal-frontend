@@ -28,7 +28,7 @@ function Navbar() {
         <div className="flex flex-col justify-center items-center text-lg leading-6">
           <Link href="tel:+91 9800781162">+91 9800781162</Link>
           <Link href="tel:+91 7989837958">+91 7989837958</Link>
-          <Link href="tel:+91 9434789024">+91 9434789024</Link>
+          {/* <Link href="tel:+91 9434789024">+91 9434789024</Link> */}
         </div>
       </div>
       {/* <div className="md:hidden flex flex-col gap-3 px-3 items-start relative">
