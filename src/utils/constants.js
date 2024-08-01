@@ -130,6 +130,15 @@ export const contributors = [
     year: "2025",
   },
   {
+    name: "Ayush Bhartia",
+    image: "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2024-01-26_at_1.44.23_AM.jpeg",
+    linkedin: "https://www.linkedin.com/in/ayushseven/",
+    email: "heyitsayush7@gmail.com",
+    github: "https://github.com/ayush-bhartia",
+    branch: "Electronics and Communication Engineering",
+    year: "2025",
+  },
+  {
     name: "Sahadat Sk",
     image: "https://api.nitdgplug.org/media/member_images/20220531_141042.jpg",
     linkedin: "https://www.linkedin.com/in/sahadat-sk-b1064b229",
