@@ -1,6 +1,7 @@
 import {
   accenture,
   adobe,
+  azadiamrit,
   Background,
   barstats,
   cisco,
@@ -28,9 +29,9 @@ import InfiniteLooper from "@/components/InfiniteLooper";
 function HomePage() {
   return (
     <div className=" bg-white text-black w-screen">
-      <div className=" w-screen">
-        <Image src={Background} />
-      </div>
+      <div className="w-screen">
+      <Image src={azadiamrit} layout="responsive" objectFit="cover" />
+    </div>
       <Introduction />
       <div className=" flex w-full justify-center my-3">
         <Image src={HBar2024} className=" w-1/2" />

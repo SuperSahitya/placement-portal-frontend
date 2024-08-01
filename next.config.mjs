@@ -7,6 +7,11 @@ const nextConfig = {
             hostname: 'nitdgplug.org',
             port: '',
           },
+          {
+            protocol: 'https',
+            hostname: '"api.nitdgplug.org',
+            port: '',
+          },
         ],
       },
 };

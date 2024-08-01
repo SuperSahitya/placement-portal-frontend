@@ -40,7 +40,7 @@ function PlacementStatistics() {
                   key={index}
                   src={image.src}
                   alt={image.alt}
-                  className="w-3/4 my-5"
+                  className="md:w-3/4 w-4/5 mx-auto my-5"
                 />
               ))}
             </div>
@@ -58,7 +58,7 @@ function PlacementStatistics() {
                   key={index}
                   src={image.src}
                   alt={image.alt}
-                  className="w-3/4 my-5"
+                  className="md:w-3/4 w-4/5 mx-auto my-5"
                 />
               ))}
             </div>

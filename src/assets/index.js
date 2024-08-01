@@ -24,6 +24,7 @@ import HBar2024 from "./Images/2024/HBar.png";
 import Pie2024 from "./Images/2024/Pie.png";
 import Table2024 from "./Images/2024/Table.png";
 import VBar2024 from "./Images/2024/VBar.png";
+import azadiamrit from "./Images/azadiamrit.jpg"
 
 export {
   dgplogo,
@@ -52,4 +53,5 @@ export {
   Pie2024,
   Table2024,
   VBar2024,
+  azadiamrit
 };

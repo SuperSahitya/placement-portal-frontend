@@ -86,26 +86,66 @@ export const student_forms = [
   },
 ];
 
-
 export const navbar_links = [
   {
     name: "Home",
-    link : "/",
+    link: "/",
   },
   {
     name: "Placement Statistics",
-    link : "/placement-statistics",
+    link: "/placement-statistics",
   },
   {
     name: "Students Section",
-    link : "/students-section",
+    link: "/students-section",
   },
   {
     name: "Recruiters Section",
-    link : "https://forms.gle/Sn3H61inDZ9seePu7",
+    link: "https://forms.gle/Sn3H61inDZ9seePu7",
   },
   {
     name: "Contact Us",
-    link : "/contact-us",
+    link: "/contact-us",
   },
-]
+];
+
+export const contributors = [
+  {
+    name: "Rounak Kumar Jha",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQFN_dnGma_oFQ/profile-displayphoto-shrink_200_200/0/1712899118092?e=1727913600&v=beta&t=GVvlln7KA9aEgo-LAdTA3-cXsAy5Qm1APBzJ_CidNkY",
+    linkedin: "https://www.linkedin.com/in/rounak-k-jha",
+    email: "rounakjha291202.rar@gmail.com",
+    github: "https://github.com/ROUNAK-K-JHA-2002",
+    branch: "Electrical Engineering",
+    year: "2025",
+  },
+  {
+    name: "Satyam Pattanaik",
+    image: "https://api.nitdgplug.org/media/member_images/photo_Z2gGGqm.jpeg",
+    linkedin: "https://www.linkedin.com/in/satyam-pattanaik-764063228/",
+    email: "satyampattanaik007@gmail.com",
+    github: "https://github.com/Satyam0204",
+    branch: "Mechanical Engineering",
+    year: "2025",
+  },
+  {
+    name: "Sahadat Sk",
+    image: "https://api.nitdgplug.org/media/member_images/20220531_141042.jpg",
+    linkedin: "https://www.linkedin.com/in/sahadat-sk-b1064b229",
+    email: "rentu1970@gmail.com",
+    github: "https://github.com/sahadat-sk",
+    branch: "Electronics and Communication Engineering",
+    year: "2025",
+  },
+  {
+    name: "Suman Karmakar",
+    image:
+      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2022-05-31_at_9.58.25_PM.jpeg",
+    linkedin: "https://www.linkedin.com/in/suman-karmakar-0840b31a9/",
+    email: "sumankarmakar1184@gmail.com",
+    github: "https://github.com/suman-09",
+    branch: "Mechanical Engineering",
+    year: "2025",
+  },
+];

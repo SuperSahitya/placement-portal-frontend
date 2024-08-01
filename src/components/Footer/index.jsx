@@ -11,7 +11,7 @@ const Footer = () => {
       <div className=" w-full mx-auto flex flex-col md:flex-row items-center justify-around py-3">
         <div className="mb-4 md:mb-0 px-4">
           <div className="text-center md:text-left">
-            <Image src={dgplogo} />{" "}
+            <Image src={dgplogo} className=" mx-auto" />{" "}
             <h2 className="font-bold text-lg mt-2">
               National Institute of Technology, Durgapur
             </h2>
@@ -101,8 +101,8 @@ const Footer = () => {
           rights reserved.
         </p>
       </div>
-      <div className="mt-4 text-center flex justify-center gap-2 items-center w-full px-2 text-md  bg-white/80 py-3">
-        Built and Maintained by <Image src={"https://nitdgplug.org/static/images/glug-logo.png"} height={30} width={30} /> GNU Linux Users&apos; Group , NIT Durgapur
+      <div className="mt-4 text-center md:flex md:justify-center gap-2 md:items-center w-full px-2 text-md  bg-white/80 py-3">
+        Built and Maintained by <Image src={"https://nitdgplug.org/static/images/glug-logo.png"} className=" hidden md:block" height={30} width={30} />  <span className=" font-semibold">GNU Linux Users&apos; Group</span> , NIT Durgapur
       </div>
     </footer>
   );
