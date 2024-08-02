@@ -11,10 +11,10 @@ function Contributors() {
     <div className="p-8 bg-gray-100">
       <h2 className="text-3xl font-bold mb-6 text-center">Contributors</h2>
       <div className=" w-full md:w-4/5 mx-auto my-7 text-lg">
-        The Training and Placement Portal, developed by a team of undergraduates
+        The Training and Placement Portal, developed by a team of enthusiastic undergraduates
         for use during Placement and Internship drives at NIT Durgapur, aims to
         streamline the recruitment process through essential automation
-        resources. This portal facilitates information exchange between
+        resources. This portal facilitates seamless flow of information among
         Students, Companies, and the Placement Office.{" "}
       </div>
       <div className="grid grid-cols-1  md:grid-cols-3 w-full md:w-4/5 mx-auto gap-10 my-5">
