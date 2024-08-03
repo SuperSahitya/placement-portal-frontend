@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 
 function StudentSection() {
   return (
-    <div className="">
-      <div className=" text-3xl font-bold my-4 px-2 md:w-4/5 mx-auto">
+    <div className=" py-4">
+      <div className=" text-3xl font-bold my-4 px-2 md:w-4/5 mx-auto text-center">
         {" "}
         Forms for Students
       </div>

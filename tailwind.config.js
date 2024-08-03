@@ -10,6 +10,9 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      md: "1100px",
+    },
     extend: {
       boxShadow: {
         blueLight: "1px 1px 10px  rgba(71, 81, 255, 0.3)",

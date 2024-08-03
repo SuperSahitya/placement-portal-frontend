@@ -11,11 +11,11 @@ import { IoCallSharp, IoMailSharp } from "react-icons/io5";
 const Footer = () => {
   const pathname = usePathname();
   return (
-    <footer className="bg-gray-200 ">
+    <footer className="bg-[#021738] text-white ">
       <div className=" w-full mx-auto flex flex-col md:flex-row md:items-center ps-4 md:px-0 justify-around py-6">
         <div className="mb-4 md:mb-0">
           <div className=" text-left">
-            <Image src={dgplogo} className=" h-20 w-20" />
+            {/* <Image src={dgplogo} className=" h-20 w-20 invert" /> */}
             <h2 className="font-bold text-lg mt-2">
               Training and Placement Cell
             </h2>
@@ -25,15 +25,15 @@ const Footer = () => {
               <br />
               West Bengal 713209
             </p>
-            <p className=" my-2 flex gap-3 md:gap-2 items-center">
+            <p className=" my-2 flex text-ellipsis gap-3 md:gap-2 items-center">
               <IoMailSharp size={24} />{" "}
-              <p className=" flex flex-col md:flex-row">
+              <span className=" flex flex-col md:flex-row">
                 <Link href="mailto:placementcell@nitdgp.ac.in">
                   placementcell@nitdgp.ac.in /
                 </Link>
 
                 <Link href="mailto:cdc@nitdgp.ac.in">cdc@nitdgp.ac.in</Link>
-              </p>
+              </span>
             </p>
             <p className=" my-2 flex gap-3 md:gap-2 items-center">
               <IoCallSharp size={24} />{" "}
@@ -115,7 +115,7 @@ const Footer = () => {
           rights reserved.
         </p>
       </div>
-      <div className="mt-4 text-center  md:flex md:justify-center gap-2 md:items-center w-full px-2 text-md  bg-white/80 py-3">
+      <div className="mt-4 text-center  md:flex md:justify-center gap-2 md:items-center w-full px-2 bg-black/50 text-md py-3">
         Developed and Maintained by
         <Image
           src={"https://nitdgplug.org/static/images/glug-logo.png"}

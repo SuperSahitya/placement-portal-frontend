@@ -33,8 +33,8 @@ function Contributors() {
                 {" "}
                 <div className="text-xl font-semibold mt-4">
                   {contributor.name} <br />{" "}
-                  <span className=" text-gray-800 text-md">
-                    {contributor.branch}, Class of {contributor.year}
+                  <span className=" text-gray-800 text-sm">
+                    {contributor.branch} Department, Class of {contributor.year}
                   </span>
                 </div>
                 <div className="   my-2 flex justify-start items-center gap-4">
