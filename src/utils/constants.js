@@ -150,6 +150,16 @@ export const contributors = [
     year: "2025",
   },
   {
+    name: "Ayush Bhartia",
+    image:
+      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2024-01-26_at_1.44.23_AM.jpeg",
+    linkedin: "https://www.linkedin.com/in/ayushseven/",
+    email: "heyitsayush7@gmail.com",
+    github: "https://github.com/ayush-bhartia",
+    branch: "Electronics and Communication Engineering",
+    year: "2025",
+  },
+  {
     name: "Suman Karmakar",
     image:
       "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2022-05-31_at_9.58.25_PM.jpeg",
@@ -177,16 +187,6 @@ export const contributors = [
     email: "princemauryapm2001@gmail.com",
     github: "https://github.com/pm-2001",
     branch: "Mechanical Engneering",
-    year: "2025",
-  },
-  {
-    name: "Ayush Bhartia",
-    image:
-      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2024-01-26_at_1.44.23_AM.jpeg",
-    linkedin: "https://www.linkedin.com/in/ayushseven/",
-    email: "heyitsayush7@gmail.com",
-    github: "https://github.com/ayush-bhartia",
-    branch: "Electronics and Communication Engineering",
     year: "2025",
   },
 ];
