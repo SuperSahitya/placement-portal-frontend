@@ -74,19 +74,19 @@ const Footer = () => {
             >
               CV Format for PG
             </Link>
-            <Link
+            {/* <Link
               href="https://nitdgp.ac.in/"
               className=" hover:underline"
               target="blank"
             >
               NIT Durgapur
-            </Link>
+            </Link> */}
             <Link href="/contributors" className=" hover:underline">
               Contributors
             </Link>
           </div>
         </div>
-        <div className="mb-4 md:mb-0">
+        {/* <div className="mb-4 md:mb-0">
           <h3 className="font-bold  text-2xl md:text-left">Nav Links</h3>
           <div className=" grid grid-cols-1 gap-1 mt-4 ">
             {navbar_links
@@ -107,7 +107,7 @@ const Footer = () => {
                 </Link>
               ))}
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="mt-4  text-center border-t border-gray-400 pt-4 px-2">
         <p>

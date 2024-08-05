@@ -11,10 +11,11 @@ function Navbar() {
   return (
     <div className="bg-secondary w-screen py-5 px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-3">
       <div className="flex items-center">
-        <Image src={dgplogo} height={65} width={65} />
+       <Link href={"https://nitdgp.ac.in"} className="flex items-center" target="blank">
+       <Image src={dgplogo} height={65} width={65} />
         <div className="text-lg md:text-2xl ps-3 font-bold">
           National Institute of Technology, Durgapur <br /> Training and Placement Cell
-        </div>
+        </div></Link>
       </div>
       <div className="hidden md:flex gap-3 px-3">
         <div className="text-2xl font-semibold">Mail Us :</div>
