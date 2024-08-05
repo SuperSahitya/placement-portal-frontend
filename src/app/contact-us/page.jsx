@@ -62,11 +62,10 @@ function ContactUS() {
             <div className=" rounded-full w-[15%]">
               {" "}
               <Image
-                src={person_placeholder}
+                src={contact.image}
                 alt="person_placeholder"
-                height={50}
-                width={50}
-                className=" rounded-full "
+                
+                className=" rounded-full  w-20 h-20"
               />
             </div>
             <div>

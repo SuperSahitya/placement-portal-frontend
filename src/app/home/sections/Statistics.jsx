@@ -21,9 +21,7 @@ function Statistics() {
         <li>M.Sc.: Six-week summer training.</li>
       </ul>
 
-      <div className=" flex w-full justify-center my-3">
-        <Image src={Pie2024} className=" w-1/2" />
-      </div>
+   
 
       <h3 className="text-xl font-semibold mb-2">Summer Internships:</h3>
 

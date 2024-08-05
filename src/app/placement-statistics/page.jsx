@@ -65,6 +65,7 @@ function PlacementStatistics() {
           </Tab>
         </Tabs>
       </div>
+      <div className=" my-2 text-center">All data are associated and provided by Training and Placement Cell , NIT Durgapur.</div>
     </div>
   );
 }

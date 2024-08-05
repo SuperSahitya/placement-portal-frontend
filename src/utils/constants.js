@@ -1,3 +1,11 @@
+import {
+  amrita,
+  aniruddha,
+  jada,
+  person_placeholder,
+  sumanHaldar,
+} from "@/assets";
+
 export const industries = [
   "Core Engineering industries",
   "Software / IT Industries",
@@ -15,18 +23,21 @@ export const contact_list = [
     name: "Mr. Pintu Das",
     title: "Senior Executive",
     mobile: "+91-9800781162",
+    image: person_placeholder,
     email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
   },
   {
     name: "Dr. Aniruddha Mondal",
     title: "Coordinator",
     mobile: "+91-9434789024",
+    image: aniruddha,
     email: ["amondal.phy@nitdgp.ac.in"],
   },
   {
     name: "Dr. Umamaheswararao Jada",
     title: "Co-Coordinator",
     mobile: "+91-7989837958",
+    image: jada,
     email: ["ujada.dms@nitdgp.ac.in"],
   },
 
@@ -34,23 +45,27 @@ export const contact_list = [
     name: "Dr. Suman Halder",
     title: "Co-Coordinator",
     mobile: "+91-9434788187",
+    image: sumanHaldar,
     email: ["shalder.ee@nitdgp.ac.in"],
   },
   {
     name: "Dr. Amita Barik",
     title: "Co-Coordinator",
     mobile: "+91-9434788033",
+    image: amrita,
     email: ["abarik.bt@nitdgp.ac.in"],
   },
   {
     name: "Mr. Hirendra Nath Samanta",
     title: "Technical Officer",
     mobile: "+91-9434788113",
+    image: person_placeholder,
     email: ["to.cdc@nitdgp.ac.in"],
   },
   {
     name: "Ms. Jyoti Ranjan",
     title: "Career Development Advisor",
+    image: person_placeholder,
     email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
   },
 ];
@@ -135,15 +150,16 @@ export const contributors = [
     year: "2025",
   },
   {
-    name: "Ayush Bhartia",
+    name: "Suman Karmakar",
     image:
-      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2024-01-26_at_1.44.23_AM.jpeg",
-    linkedin: "https://www.linkedin.com/in/ayushseven/",
-    email: "heyitsayush7@gmail.com",
-    github: "https://github.com/ayush-bhartia",
-    branch: "Electronics and Communication Engineering",
+      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2022-05-31_at_9.58.25_PM.jpeg",
+    linkedin: "https://www.linkedin.com/in/suman-karmakar-0840b31a9/",
+    email: "sumankarmakar1184@gmail.com",
+    github: "https://github.com/suman-09",
+    branch: "Mechanical Engineering",
     year: "2025",
   },
+
   {
     name: "Sahadat Sk",
     image: "https://api.nitdgplug.org/media/member_images/20220531_141042.jpg",
@@ -153,14 +169,24 @@ export const contributors = [
     branch: "Electronics and Communication Engineering",
     year: "2025",
   },
+
   {
-    name: "Suman Karmakar",
+    name: "Prince Maurya",
+    image: "https://api.nitdgplug.org/media/member_images/Prince.jpg",
+    linkedin: "https://www.linkedin.com/in/pm2001/",
+    email: "princemauryapm2001@gmail.com",
+    github: "https://github.com/pm-2001",
+    branch: "Mechanical Engneering",
+    year: "2025",
+  },
+  {
+    name: "Ayush Bhartia",
     image:
-      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2022-05-31_at_9.58.25_PM.jpeg",
-    linkedin: "https://www.linkedin.com/in/suman-karmakar-0840b31a9/",
-    email: "sumankarmakar1184@gmail.com",
-    github: "https://github.com/suman-09",
-    branch: "Mechanical Engineering",
+      "https://api.nitdgplug.org/media/member_images/WhatsApp_Image_2024-01-26_at_1.44.23_AM.jpeg",
+    linkedin: "https://www.linkedin.com/in/ayushseven/",
+    email: "heyitsayush7@gmail.com",
+    github: "https://github.com/ayush-bhartia",
+    branch: "Electronics and Communication Engineering",
     year: "2025",
   },
 ];
@@ -310,6 +336,12 @@ export const tprs_list = [
       {
         branch: "Chemical Engineering",
         people: [
+          {
+            name: "Ankit Pandey",
+            linkedin_url: "https://www.linkedin.com/in/ankit-pandey-2003ap",
+            phone_number: "9354711841",
+            email_id: "ankitpandey.nitdgp@gmail.com",
+          },
           {
             name: "Rohan Singh Yadav ",
             linkedin_url:

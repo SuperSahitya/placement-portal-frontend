@@ -18,13 +18,17 @@ import person_placeholder from "./Images/person.jpg";
 import pdf_image from "./Images/pdf_image.png";
 import HBar2023 from "./Images/2023/HBar.png";
 import pie2023 from "./Images/2023/pie.png";
-import Table2023 from "./Images/2023/Table.png";
+import Table2023 from "./Images/2023/Table.jpeg";
 import VBar2023 from "./Images/2023/VBar.png";
 import HBar2024 from "./Images/2024/HBar.png";
 import Pie2024 from "./Images/2024/Pie.png";
 import Table2024 from "./Images/2024/Table.png";
 import VBar2024 from "./Images/2024/VBar.png";
-import azadiamrit from "./Images/azadiamrit.jpg"
+import azadiamrit from "./Images/azadiamrit.jpg";
+import amrita from "./Images/amrita.jpeg";
+import jada from "./Images/jada.jpeg";
+import sumanHaldar from "./Images/sumanHaldar.jpeg";
+import aniruddha from "./Images/aniruddha.jpeg";
 
 export {
   dgplogo,
@@ -53,5 +57,9 @@ export {
   Pie2024,
   Table2024,
   VBar2024,
-  azadiamrit
+  azadiamrit,
+  amrita,
+  sumanHaldar,
+  aniruddha,
+  jada,
 };
