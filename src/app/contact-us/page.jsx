@@ -19,7 +19,7 @@ function ContactUS() {
             <div className=" rounded-full w-[15%]">
               {" "}
               <Image
-                src={person_placeholder}
+                src={contact.image}
                 alt="person_placeholder"
                 height={50}
                 width={50}
@@ -104,7 +104,7 @@ function ContactUS() {
             <div className=" rounded-full w-[15%]">
               {" "}
               <Image
-                src={person_placeholder}
+                src={contact.image}
                 alt="person_placeholder"
                 height={50}
                 width={50}

@@ -29,6 +29,16 @@ import amrita from "./Images/amrita.jpeg";
 import jada from "./Images/jada.jpeg";
 import sumanHaldar from "./Images/sumanHaldar.jpeg";
 import aniruddha from "./Images/aniruddha.jpeg";
+import bpcl from "./Images/BPCL.png";
+import samanta from "./Images/Samanta.jpeg"
+import jyoti from "./Images/jyoti.jpeg"
+import pintu from "./Images/Pintu.jpeg"
+import deloitte from "./Images/Deloitte.png";
+import hero from "./Images/hero.png";
+import jsw from "./Images/jsw.jpeg";
+import reliance from "./Images/Reliance.png";
+import samsung from "./Images/samsung.png";
+
 
 export {
   dgplogo,
@@ -62,4 +72,13 @@ export {
   sumanHaldar,
   aniruddha,
   jada,
+  bpcl,
+  samanta,
+  jyoti,
+  pintu,
+  deloitte,
+  hero,
+  jsw,
+  reliance,
+  samsung,
 };

@@ -16,6 +16,12 @@ import {
   texasInstruments,
   wellsFargo,
   zs,
+  bpcl,
+  deloitte,
+  hero,
+  jsw,
+  reliance,
+  samsung,
 } from "@/assets";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -61,6 +67,12 @@ function HomePage() {
             texasInstruments,
             wellsFargo,
             zs,
+            bpcl, 
+            deloitte,
+            hero,
+            jsw,
+            reliance,
+            samsung
           ].map((ele, i) => {
             return (
               <div key={i} className=" w-full gap-3 mx-5">

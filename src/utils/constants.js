@@ -2,7 +2,10 @@ import {
 	amrita,
 	aniruddha,
 	jada,
+	jyoti,
 	person_placeholder,
+	pintu,
+	samanta,
 	sumanHaldar,
 } from "@/assets";
 
@@ -23,7 +26,7 @@ export const contact_list = [
 		name: "Mr. Pintu Das",
 		title: "Senior Executive",
 		mobile: "+91-9800781162",
-		image: person_placeholder,
+		image: pintu,
 		email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
 	},
 	{
@@ -59,13 +62,13 @@ export const contact_list = [
 		name: "Mr. Hirendra Nath Samanta",
 		title: "Technical Officer",
 		mobile: "+91-9434788113",
-		image: person_placeholder,
+		image: samanta,
 		email: ["to.cdc@nitdgp.ac.in"],
 	},
 	{
 		name: "Ms. Jyoti Ranjan",
 		title: "Career Development Advisor",
-		image: person_placeholder,
+		image: jyoti,
 		email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
 	},
 ];
