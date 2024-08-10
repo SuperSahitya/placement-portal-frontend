@@ -22,55 +22,63 @@ export const industries = [
 ];
 
 export const contact_list = [
-	{
-		name: "Mr. Pintu Das",
-		title: "Senior Executive",
-		mobile: "+91-9800781162",
-		image: pintu,
-		email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
-	},
-	{
-		name: "Dr. Aniruddha Mondal",
-		title: "Coordinator",
-		mobile: "+91-9434789024",
-		image: aniruddha,
-		email: ["amondal.phy@nitdgp.ac.in"],
-	},
-	{
-		name: "Dr. Umamaheswararao Jada",
-		title: "Co-Coordinator",
-		mobile: "+91-7989837958",
-		image: jada,
-		email: ["ujada.dms@nitdgp.ac.in"],
-	},
+  {
+    name: "Mr. Pintu Das",
+    title: "Senior Executive",
+    mobile: "+91-9800781162",
+    image: person_placeholder,
+    email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
+  },
+  {
+    name: "Dr. Aniruddha Mondal",
+    designation: "Associate Professor",
+    department: "Department of Physics",
+    title: "Coordinator",
+    mobile: "+91-9434789024",
+    image: aniruddha,
+    email: ["amondal.phy@nitdgp.ac.in"],
+  },
+  {
+    name: "Dr. Umamaheswararao Jada",
+    designation: "Assistant Professor",
+    department: "Department of Management Studies",
+    title: "Co-Coordinator",
+    mobile: "+91-7989837958",
+    image: jada,
+    email: ["ujada.dms@nitdgp.ac.in"],
+  },
 
-	{
-		name: "Dr. Suman Halder",
-		title: "Co-Coordinator",
-		mobile: "+91-9434788187",
-		image: sumanHaldar,
-		email: ["shalder.ee@nitdgp.ac.in"],
-	},
-	{
-		name: "Dr. Amita Barik",
-		title: "Co-Coordinator",
-		mobile: "+91-9434788033",
-		image: amrita,
-		email: ["abarik.bt@nitdgp.ac.in"],
-	},
-	{
-		name: "Mr. Hirendra Nath Samanta",
-		title: "Technical Officer",
-		mobile: "+91-9434788113",
-		image: samanta,
-		email: ["to.cdc@nitdgp.ac.in"],
-	},
-	{
-		name: "Ms. Jyoti Ranjan",
-		title: "Career Development Advisor",
-		image: jyoti,
-		email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
-	},
+  {
+    name: "Dr. Suman Halder",
+    designation: "Assistant Professor",
+    department: "Department of Electrical Engineering",
+    title: "Co-Coordinator",
+    mobile: "+91-9434788187",
+    image: sumanHaldar,
+    email: ["shalder.ee@nitdgp.ac.in"],
+  },
+  {
+    name: "Dr. Amita Barik",
+    designation: "Assistant Professor",
+    department: "Department of Biology",
+    title: "Co-Coordinator",
+    mobile: "+91-9434788033",
+    image: amrita,
+    email: ["abarik.bt@nitdgp.ac.in"],
+  },
+  {
+    name: "Mr. Hirendra Nath Samanta",
+    title: "Technical Officer",
+    mobile: "+91-9434788113",
+    image: person_placeholder,
+    email: ["to.cdc@nitdgp.ac.in"],
+  },
+  {
+    name: "Ms. Jyoti Ranjan",
+    title: "Career Development Advisor",
+    image: person_placeholder,
+    email: ["placementcell@nitdgp.ac.in", "cdc@nitdgp.ac.in"],
+  },
 ];
 
 export const student_forms = [

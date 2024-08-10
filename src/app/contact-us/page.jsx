@@ -70,6 +70,7 @@ function ContactUS() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-2">{contact.name}</h3>
+              <h4 className="text-l font-bold mb-2">{contact.designation}, {contact.department}</h4>
               <p className="text-gray-600 mb-1">{contact.title}</p>
               {contact.mobile && (
                 <p className="text-gray-600 mb-1">
