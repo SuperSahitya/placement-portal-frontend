@@ -60,7 +60,7 @@ export const contact_list = [
   {
     name: "Dr. Amita Barik",
     designation: "Assistant Professor",
-    department: "Department of Biology",
+    department: "Department of Biotechnology",
     title: "Co-Coordinator",
     mobile: "+91-9434788033",
     image: amrita,
