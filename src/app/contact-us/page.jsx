@@ -16,13 +16,13 @@ function ContactUS() {
             key={index}
             className="p-4 border rounded-lg flex w-full md:w-3/4  mx-auto shadow-blueLight bg-blue-300/20"
           >
-            <div className=" rounded-full w-[15%]">
+            <div className=" mr-4 md:rounded-full md:w-[15%]">
               {" "}
               <Image
                 src={contact.image}
                 alt="person_placeholder"
-                height={50}
-                width={50}
+                height={60}
+                width={60}
                 className=" rounded-full "
               />
             </div>
@@ -59,13 +59,13 @@ function ContactUS() {
             key={index}
             className="p-4 border rounded-lg flex w-full md:w-3/4 mx-auto shadow-blueLight bg-blue-300/20"
           >
-            <div className=" rounded-full w-[15%]">
+            <div className=" mr-4 md:rounded-full md:w-[15%]">
               {" "}
               <Image
                 src={contact.image}
                 alt="person_placeholder"
                 
-                className=" rounded-full  w-20 h-20"
+                className=" rounded-full  w-20 h-16 md:w-20 md:h-20"
               />
             </div>
             <div>
@@ -102,13 +102,13 @@ function ContactUS() {
             key={index}
             className="p-4 border rounded-lg flex  w-full md:w-3/4 mx-auto  shadow-blueLight bg-blue-300/20"
           >
-            <div className=" rounded-full w-[15%]">
+            <div className=" mr-4 md:rounded-full md:w-[15%]">
               {" "}
               <Image
                 src={contact.image}
                 alt="person_placeholder"
                 height={50}
-                width={50}
+                width={60}
                 className=" rounded-full "
               />
             </div>

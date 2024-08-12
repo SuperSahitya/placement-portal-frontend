@@ -11,7 +11,7 @@ function InternalNavbar() {
 
   return (
     <div className="bg-[#021738] text-white shadow-blueLight">
-      <div className="md:hidden py-2 px-4">
+      <div className="md:hidden py-4 px-4">
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
             <FaTimes className="text-white" />
@@ -21,7 +21,7 @@ function InternalNavbar() {
         </button>
       </div>
       <div
-        className={`md:flex justify-center ${
+        className={`pb-4 md:flex justify-center ${
           isOpen ? "block" : "hidden"
         } md:space-x-8 md:py-4`}
       >
