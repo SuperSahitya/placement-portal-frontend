@@ -123,8 +123,14 @@ const Footer = () => {
           height={30}
           width={30}
         />
-        <span className=" font-semibold ps-1">GNU Linux Users&apos; Group</span> ,
-        NIT Durgapur
+        <span className=" font-semibold ps-1"><Link
+              href="https://nitdgplug.org/"
+              className=" hover:underline"
+              target="blank"
+            >
+              GNU Linux Users&apos; Group,
+              NIT Durgapur
+            </Link></span> 
       </div>
     </footer>
   );
