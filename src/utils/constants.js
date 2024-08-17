@@ -241,7 +241,7 @@ export const tprs_list = [
 				people: [
 					{
 						name: "Atanu BeparI",
-						linkedin_url: "www.linkedin.com/in/atanubepari",
+						linkedin_url: "https://www.linkedin.com/in/atanubepari",
 						phone_number: "8016646806",
 						email_id: "atanubepari111@gmail.com",
 					},
